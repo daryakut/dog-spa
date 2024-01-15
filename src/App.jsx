@@ -74,7 +74,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/dog-spa/" exact element={<Home />} />
-          <Route path="/dog-spa/products" element={<Products />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/dog-spa/spa-services" element={<SpaServices />} />
           <Route
             path="/dog-spa/book-appointment"
