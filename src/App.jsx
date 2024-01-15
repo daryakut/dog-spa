@@ -73,29 +73,16 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route
-            path="https://daryakut.github.io/dog-spa/"
-            exact
-            element={<Home />}
-          />
-          <Route
-            path="https://daryakut.github.io/products"
-            element={<Products />}
-          />
-          <Route path="/dog-spa/spa-services" element={<SpaServices />} />
-          <Route
-            path="/dog-spa/book-appointment"
-            element={<BookAppointment />}
-          />
-          <Route path="/dog-spa/blog" element={<Blog />} />
-          <Route path="/dog-spa/about-us" element={<AboutUs />} />
-          <Route path="/dog-spa/contact-us" element={<ContactUs />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/spa-services" element={<SpaServices />} />
+          <Route path="/book-appointment" element={<BookAppointment />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>
-      {/* <Header />
-      <Banner />
-      <Main /> */}
     </div>
   );
 }
