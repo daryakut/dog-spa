@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dog-spa/static/css/main.4ab18a0f.css",
-    "main.js": "/dog-spa/static/js/main.1f3b0139.js",
+    "main.js": "/dog-spa/static/js/main.8f4c6a66.js",
     "static/media/dogBath.svg": "/dog-spa/static/media/dogBath.01d1904b89a5e6c7af100abde9f131c5.svg",
     "static/media/carry3.svg": "/dog-spa/static/media/carry3.9be93308a6263f841b2a1671d9689cd9.svg",
     "static/media/dog_bg.png": "/dog-spa/static/media/dog_bg.a8bdeb7c2effdaa3b3a5.png",
@@ -15,10 +15,10 @@
     "static/media/user.svg": "/dog-spa/static/media/user.6611fb6f12ac1087fbf1f37ccd884fe7.svg",
     "static/media/search.svg": "/dog-spa/static/media/search.c0cc163f069b7aa9f52d931a8bbe9f27.svg",
     "main.4ab18a0f.css.map": "/dog-spa/static/css/main.4ab18a0f.css.map",
-    "main.1f3b0139.js.map": "/dog-spa/static/js/main.1f3b0139.js.map"
+    "main.8f4c6a66.js.map": "/dog-spa/static/js/main.8f4c6a66.js.map"
   },
   "entrypoints": [
     "static/css/main.4ab18a0f.css",
-    "static/js/main.1f3b0139.js"
+    "static/js/main.8f4c6a66.js"
   ]
 }
