@@ -21,6 +21,7 @@
   background-image: url("./images/dog_bg.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .info {
@@ -45,7 +46,7 @@
   background-color: var(--second-color);
   border: none;
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   padding: 2vh;
   border-radius: 1.5rem;
   margin: 12vh 10vw;

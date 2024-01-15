@@ -9,7 +9,7 @@ export default function Button(props) {
       : props.color || "#DFB2A9",
     border: "none",
     color: "white",
-    fontSize: "14px",
+    fontSize: "20px",
     padding: "2vh",
     borderRadius: "1.5rem",
     textAlign: "center",

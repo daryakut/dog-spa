@@ -38,7 +38,7 @@ font-family: 'Tangerine', cursive;
 
 .links li {
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .links a {
@@ -46,8 +46,8 @@ font-family: 'Tangerine', cursive;
 }
 
 .actions img {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   margin-right: 16px;
   cursor: pointer;
 }
