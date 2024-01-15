@@ -1,0 +1,60 @@
+/* :root {
+  --main-color: #dfb2a9;
+  --second-color: #e89b93;
+  --text-color: #4c4c4b;
+} */
+
+.container-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: ; */
+}
+.sale {
+  background-color: #f3ded7;
+  font-size: 20px;
+  text-align: center;
+  padding: 1.5vh 0;
+  cursor: pointer;
+}
+.booking-block {
+  background-image: url("./images/dog_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.info {
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 14vh 0 0 4vw;
+  font-size: 63px;
+  text-align: center;
+}
+.sub-info {
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 58px;
+  text-align: center;
+  padding: 8vh 4vw 0 0;
+}
+.info button {
+  background-color: var(--second-color);
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 2vh;
+  border-radius: 1.5rem;
+  margin: 12vh 10vw;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.info button:hover {
+  background-color: #954d52; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  cursor:pointer;
+}

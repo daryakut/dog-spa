@@ -1,0 +1,24 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+  gap: 5vw;
+  padding: 4vw;
+}
+
+.gridItem img {
+  /* height: 50vh; */
+  border: 8px solid var(--main-color);
+ max-width: 100%; 
+  height: auto; 
+}
+.gridItem p {
+  font-size: 20px;
+  padding-top: 2vh;
+   line-height: 1.6em; 
+  /* white-space: pre-line; */
+  /* padding-right: 4vw; */
+}
+.gridItem p:nth-child(3) {
+  font-size: 30px;
+}

@@ -1,0 +1,83 @@
+.container_main {
+ margin: 8vh 4vw;
+}
+
+.spa_package {
+  /* стили для блока spa_package */
+  margin: 8vh 0 8vh 4vw;
+}
+
+.spa_package-header {
+  text-align: center;
+  /* font-size: 66px; */
+  padding: 4vh 0;
+}
+
+.spa_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 5vw;
+}
+.spa_container img {
+  height: 60vh;
+  border: 8px solid var(--main-color);
+}
+.spa_img {
+  /* max-width: 50%; */
+  flex: 1;
+}
+
+.spa_info {
+   /* max-width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2vh 4vw 2vh 8vw;
+  text-align: center;
+}
+
+.package{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  font-size: 36px;
+  padding: 2vh 7vw 0 7vw;
+}
+
+
+.package_description {
+font-size: 22px;
+padding-top: 4vh;
+}
+/* .spa_info button{
+  background-color: #DFB2A9;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 2vh;
+  border-radius: 1.5rem;
+  margin: 2vw;
+  text-align: center;
+}
+
+.spa_info button:hover {
+  background-color: #954d52; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  cursor:pointer;
+} */
+
+
+.collars, .carryOn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-top: 4vw;
+  margin-bottom: 1vw;
+}
+h2{
+  font-size: 56px;
+}
+
