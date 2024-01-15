@@ -1,4 +1,5 @@
 {
+  "homepage": "https://daryakut.github.io/dog-spa",
   "name": "dog-spa-app",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://daryakut.github.io/dog-spa/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
