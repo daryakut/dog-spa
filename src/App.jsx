@@ -73,8 +73,15 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/dog-spa/" exact element={<Home />} />
-          <Route path="/products" element={<Products />} />
+          <Route
+            path="https://daryakut.github.io/dog-spa/"
+            exact
+            element={<Home />}
+          />
+          <Route
+            path="https://daryakut.github.io/products"
+            element={<Products />}
+          />
           <Route path="/dog-spa/spa-services" element={<SpaServices />} />
           <Route
             path="/dog-spa/book-appointment"
